@@ -32,7 +32,7 @@ cp .env.example .env
 Edit .env with your DB credentials.
 
 ### 4. 🔍 Setup MySQL Database
-Make sure MySQL is running - ```bash sudo systemctl status mysql```
+Make sure MySQL is running - ```sudo systemctl status mysql```
 If not:
 ```bash
 sudo systemctl start mysql
