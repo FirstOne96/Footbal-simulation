@@ -1,4 +1,6 @@
 -- This SQL script creates a database for storing football match data, including teams, players, matches and events.
+CREATE DATABASE IF NOT EXISTS football_db;
+USE football_db;
 
 DROP TABLE IF EXISTS events;
 DROP TABLE IF EXISTS matches;
