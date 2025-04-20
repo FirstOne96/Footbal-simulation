@@ -28,6 +28,7 @@ npm install
 ```
 ### 3. 📂 Configure Environment Variables
 ```bash
+cd football-skripts
 cp .env.example .env
 ```
 Edit .env with your DB credentials.
@@ -40,6 +41,7 @@ sudo systemctl start mysql
 ```    
 Then execute the *football_db* to create tables:
 ```bash
+cd ..
 mysql -u root -p < football_db.sql
 ```
 
