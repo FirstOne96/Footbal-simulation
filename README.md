@@ -22,6 +22,7 @@ git clone https://github.com/yourusername/Football-simulation.git
 cd Football-simulation
 ```
 ### 2. 📂 Install Dependencies
+Make sure that the version is 18+
 ```bash
 npm install
 ```
@@ -48,6 +49,8 @@ node api.js
 ```
 
 Server will be available at `http://localhost:3000`
+
+To test API, can be used *POSTMAN*.
 
 ---
 
